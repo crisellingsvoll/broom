@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BROOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Fonts en LOCAL*/
+        @font-face {
+            font-family: 'fascinate_inline';
+            src:
+                url(fonts/Fascinate_Inline/FascinateInline-Regular.eot),
+                url(fonts/fascinate_inline/FascinateInline-Regular.svg),
+                url(fonts/fascinate_inline/FascinateInline-Regular.ttf),
+                url(fonts/fascinate_inline/FascinateInline-Regular.woff);
+        }
+
+        body {
+            background-color: whitesmoke;
+        }
+
+        div {
+            position: absolute;
+        }
+
+        div[title="b-drch"] {
+            font-family: 'fascinate_inline';
+            font-size: 200px;
+            color: #93261f;
+            top: 20px;
+            left: 20px;
+        }
+
+        div[title="6-arriba"] {
+            font-family: serif;
+            color: #93261f;
+            top: 60px;
+            left: 42%;
+            right: 58%;
+            width: 15vh;
+            text-align: center;
+        }
+
+        div[title="6-arriba"] p:first-child {
+            position: absolute;
+            font-size: 30px;
+        }
+
+        div[title="6-arriba"] p:last-child {
+            position: absolute;
+            right: 0;
+            font-size: 150px;
+        }
+
+        div[title="b-izq"] {
+            font-family: 'fascinate_inline';
+            font-size: 200px;
+            color: #93261f;
+            top: 20px;
+            right: 20px;
+            transform: rotate(180deg);
+        }
+
+        div[title="r-drch"] {
+            font-family: 'fascinate_inline';
+            font-size: 150px;
+            color: #93261f;
+            top: 250px;
+            left: 200px;
+        }
+
+        div[title="r-izq"] {
+            font-family: 'fascinate_inline';
+            font-size: 150px;
+            color: #93261f;
+            top: 250px;
+            right: 200px;
+            transform: rotate(180deg);
+        }
+
+        div[title="o-centro"] {
+            font-family: 'fascinate_inline';
+            font-size: 300px;
+            color: #93261f;
+            left: 40%;
+            right: 60%;
+            top: 400px;
+        }
+
+        div[title="1-izq"] {
+            font-family: serif;
+            color: #93261f;
+            top: 700px;
+            left: 20px;
+            width: 15vh;
+            text-align: center;
+            transform: rotate(180deg);
+        }
+
+        div[title="1-izq"] p:first-child {
+            position: absolute;
+            font-size: 30px;
+        }
+
+        div[title="1-izq"] p:last-child {
+            position: absolute;
+            right: 0;
+            font-size: 150px;
+        }
+
+        div[title="6-drch"] {
+            font-family: serif;
+            color: #93261f;
+            top: 700px;
+            right: 20px;
+            width: 15vh;
+            text-align: center;
+            transform: rotate(180deg);
+        }
+
+        div[title="6-drch"] p:first-child {
+            position: absolute;
+            font-size: 30px;
+            right: 0;
+        }
+
+        div[title="6-drch"] p:last-child {
+            position: absolute;
+            left: 0;
+            font-size: 150px;
+        }
+
+        div[title="o-drch"] {
+            font-family: 'fascinate_inline';
+            font-size: 130px;
+            color: #93261f;
+            top: 750px;
+            left: 200px;
+        }
+
+        div[title="o-izq"] {
+            font-family: 'fascinate_inline';
+            font-size: 130px;
+            color: #93261f;
+            top: 750px;
+            right: 200px;
+            transform: rotate(180deg);
+        }
+
+        div[title="1-abajo"] {
+            font-family: serif;
+            color: #93261f;
+            top: 910px;
+            left: 42%;
+            right: 58%;
+            width: 15vh;
+            text-align: center;
+        }
+
+        div[title="1-abajo"] p:first-child {
+            position: absolute;
+            font-size: 30px;
+        }
+
+        div[title="1-abajo"] p:last-child {
+            position: absolute;
+            right: 0;
+            font-size: 150px;
+        }
+
+        div[title="m-drch"] {
+            font-family: 'fascinate_inline';
+            font-size: 200px;
+            color: #93261f;
+            top: 900px;
+            left: 20px;
+            transform: rotate(180deg);
+        }
+
+        div[title="m-izq"] {
+            font-family: 'fascinate_inline';
+            font-size: 200px;
+            color: #93261f;
+            top: 900px;
+            right: 20px;
+        }
+
+        @media only screen and (max-width:800px) {
+            body {
+                background-color: #cdb38e;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div title="b-drch">B</div>
+    <div title="b-izq">B</div>
+    <div title="r-drch">R</div>
+    <div title="r-izq">R</div>
+    <div title="o-centro">O</div>
+    <div title="o-drch">O</div>
+    <div title="o-izq">O</div>
+    <div title="m-drch">M</div>
+    <div title="m-izq">M</div>
+    <div title="6-arriba">
+        <p>VOL.</p>
+        <p>6</p>
+    </div>
+    <div title="6-drch">
+        <p>VOL.</p>
+        <p>6</p>
+    </div>
+    <div title="1-abajo">
+        <p>NO.</p>
+        <p>1</p>
+    </div>
+    <div title="1-izq">
+        <p>NO.</p>
+        <p>1</p>
+    </div>
+</body>
+
+</html>

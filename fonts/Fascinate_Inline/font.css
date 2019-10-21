@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'FascinateInline-Regular';
+  src: url('FascinateInline-Regular.eot');
+  src: url('FascinateInline-Regular.eot?#iefix') format('embedded-opentype'),
+       url('FascinateInline-Regular.svg#FascinateInline-Regular') format('svg'),
+       url('FascinateInline-Regular.ttf') format('truetype'),
+       url('FascinateInline-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
